@@ -51,3 +51,12 @@ header{background-color:var(--secondaryColor);
     font-family: 'Source Code Pro', monospace;
     font-size:30px;
     text-decoration:underline;}
+main, footer {width:95%}
+main, #aboutMe, #work, #contactMe{display:flex; flex-direction: column;margin: 2vh 0;}
+#aboutMe, #work, #contactMe {flex-direction: row;}
+#aboutMe section:first-child, #work section:first-child, #contactMe section:first-child {border-right:3px solid var(--secondaryColor);
+margin-right:1%; padding-right:1%;flex:10%;}
+#aboutMe section:last-child, #work section:last-child, #contactMe section:nth-child(2) {flex:75%;}
+#aboutMe h2, #work h2, #contactMe h2 {color: var(--secondaryColor);
+    font-size:40px;
+text-align:right;}
