@@ -60,12 +60,14 @@ margin-right:1%; padding-right:1%;flex:10%;}
 #aboutMe h2, #work h2, #contactMe h2 {color: var(--secondaryColor);
     font-size:40px;
 text-align:right;}
-#work section:nth-child(2) ul{width: 95%;
+#work section:nth-child(2) nav ul{width: 95%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;}
-    #work li{position: relative;}
-    #work span{position:absolute; bottom:0; left:0;}
- #work img {width:50%;}
-.foot > ul {display:flex;}
+ .sites li{position: relative; width:37%;margin: 2% -6% 2% 10%;}
+ .sites img {width:95%;height:25vh;}
+ li.featured {width:90%;margin: 2% 10%;}
+.featured img{ min-height: 50vh;}
+.sites span{position:absolute; bottom:0; left:0;}
+ .foot > ul {display:flex;}
 .foot li{text-decoration: underline;}
