@@ -76,5 +76,10 @@ text-align:right;}
 .sites span{position:absolute; bottom:10vh; left:0;}
 .featured span {bottom:24vh;}
 .content{background-color: var(--primaryColor);padding:10px;border-radius:0px 28px 28px 0px;color:var(--secondaryColor);}
- .foot > ul {display:flex;}
-.foot li{text-decoration: underline;}
+#contactMe section{position: relative;}
+.foot{width: 75%;
+    margin-left: 10%;position: absolute;bottom: 2vh;} 
+.foot > ul {display:flex;flex-direction: row;
+    justify-content: space-evenly;}
+
+.foot li{text-decoration: underline;font-size:25px;}
