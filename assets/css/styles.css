@@ -96,29 +96,14 @@ text-align:right;}
  nav.head{width:500px;}
  .head > ul li a{font-size:26px;}
     .head > ul li:hover > a, .head > ul li:focus > a{font-size:30px;}
-    main, footer {width:95%}
-    main, #aboutMe, #work, #contactMe{display:flex; flex-direction: column;margin: 2vh 0;}
-    #aboutMe, #work, #contactMe {flex-direction: row;}
-    #aboutMe section:first-child, #work section:first-child, #contactMe section:first-child {border-right:3px solid var(--secondaryColor);
-    margin-right:1%; padding-right:1%;flex:10%;}
-    #aboutMe section:last-child, #work section:last-child, #contactMe section:nth-child(2) {flex:75%;}
-    #aboutMe section:last-child{    margin: 2% 6% 2% 6%;
-        flex: 63%;
-        flex-direction: column;
-        align-items: center;}
-    #aboutMe h2, #work h2, #contactMe h2 {color: var(--secondaryColor);
-        font-size:40px;
-    text-align:right;}
-    #work section:nth-child(2) nav ul{width: 95%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;}
-     .sites li{position: relative; width:37%;margin: 2% -6% 2% 10%;}
-     .sites img {width:95%;height:25vh;border:4px solid var(--primaryColor);}
-     li.featured {width:90%;margin: 2% 10%;}
-    .featured img{ min-height: 50vh;}
-    .sites span{position:absolute; bottom:10vh; left:0;}
-    .featured span {bottom:24vh;}
+#aboutMe p {font-size: 30px;}
+ #work section:nth-child(2) nav ul{flex-direction: column;}
+ .sites li{width:90%;margin: 2% 10%;}
+ .sites img {min-height: 50vh;}
+ .sites span{position:absolute; bottom:10vh; left:0;}
+ .content h3 {font-size: 35px;}
+ .content p{font-size:24px;}
+.sites span {bottom:24vh;}
     .content{background-color: var(--primaryColor);padding:10px;border-radius:0px 28px 28px 0px;color:var(--secondaryColor);}
     #contactMe section{position: relative;}
     .foot{width: 75%;
