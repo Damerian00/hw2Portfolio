@@ -83,3 +83,15 @@ text-align:right;}
     justify-content: space-evenly;}
 
 .foot li{text-decoration: underline;font-size:25px;}
+@media screen and (min-width:1072px) and (max-width:1500px){
+    .backGroundimg >span p{font-size:43px;}
+    .brand{width: 220px;}
+     .head > ul li a{font-size:23px;}
+     .head > ul li:hover > a, .head > ul li:focus > a{font-size:23px;}
+    #aboutMe h2, #work h2, #contactMe h2 {font-size:32px;}
+    .foot li{font-size:22px;}
+}
+@media screen and ((max-width:1072px){
+
+
+}
