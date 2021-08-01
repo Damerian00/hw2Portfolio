@@ -3,6 +3,10 @@
     --secondaryColor: rgb(1,19,33, 1);
 }
 /* *{border: 1px red solid;} */
+@media screen and (min-width:2000px){
+body{display:block; margin:0 auto;}
+}
+body{min-width:1072px;max-width:2100px}
 header{background-color:var(--secondaryColor);
     height:10vh;
     position:relative;
@@ -91,6 +95,7 @@ text-align:right;}
     .foot li{font-size:20px;}
 }
 @media screen and (max-width:1072px){
+
 .backGroundimg >span {bottom:10vh;}
 .backGroundimg >span p{font-size:56px;}
  nav.head{width:500px;}
@@ -104,13 +109,6 @@ text-align:right;}
  .content h3 {font-size: 35px;}
  .content p{font-size:24px;}
 .sites span {bottom:24vh;}
-    .content{background-color: var(--primaryColor);padding:10px;border-radius:0px 28px 28px 0px;color:var(--secondaryColor);}
-    #contactMe section{position: relative;}
-    .foot{width: 75%;
-        margin-left: 10%;position: absolute;bottom: 2vh;} 
-    .foot > ul {display:flex;flex-direction: row;
-        justify-content: space-evenly;}
-    
-    .foot li{text-decoration: underline;font-size:25px;}
-
+#contactMe h2 {font-size: 32px;}
+.foot li{font-size:16px;}
 }
