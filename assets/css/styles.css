@@ -73,6 +73,7 @@ text-align:right;}
     flex-wrap: wrap;
     flex-direction: row;}
  .sites li{position: relative; width:37%;margin: 2% -6% 2% 10%;}
+ .sites ul li span{box-shadow: 10px 10px 5px #aaaa}
  .sites img {width:95%;height:25vh;border:4px solid var(--primaryColor);}
  li.featured {width:90%;margin: 2% 10%;}
 .featured img{ min-height: 50vh;}
