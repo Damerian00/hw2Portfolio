@@ -72,6 +72,8 @@ text-align:right;}
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;}
+.sites li > span{visibility:hidden ;}    
+.sites li:hover > span {visibility:visible;}
  .sites li{position: relative; width:37%;margin: 2% -6% 2% 10%;}
  .sites ul li span{box-shadow: 10px 10px 5px #aaaa}
  .sites img {width:95%;height:25vh;border:4px solid var(--primaryColor);}
