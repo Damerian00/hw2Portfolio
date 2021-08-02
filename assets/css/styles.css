@@ -78,6 +78,8 @@ text-align:right;}
  .sites ul li span{box-shadow: 10px 10px 5px #aaaa}
  .sites img {width:95%;height:25vh;border:4px solid var(--primaryColor);}
  li.featured {width:90%;margin: 2% 10%;}
+ .featured h3{font-size:30px;}
+ .featured p{font-size:20px;}
 .featured img{ min-height: 50vh;}
 .sites span{position:absolute; bottom:10vh; left:0;}
 .featured span {bottom:24vh;}

@@ -26,19 +26,17 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<p align="center">
-  <a href="https://github.com/github_username/repo_name">
-  </a>
+
 
   <h3 align="center">My Portfolio</h3>
 
   <p align="center">
     This project is my first attempt at creating my own portfoilo.
     <br />
-    <a href="https://github.com/Damerian00/Horiseon-hwk2"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Damerian00/hw2Portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://damerian00.github.io/Horiseon-hwk2/">View Demo</a>
+    <a href="https://damerian00.github.io/hw2Portfolio/">View Demo</a>
     
 </p>
 
@@ -62,7 +60,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Below you will see the finished website that includes the updated code so that the elements tags are not all divs. This site features new element tags that coincide with SEO protocol. I added header and nav tags to the top of the page where the navigation, the brand and the top portion of the site is. I then added main tag and some section tags to differentiate the middle section from the top and bottom. Then I finally added footer tag to represent the bottom portion of the page.
+This is my first attept at creating a portfolio for myself. It utilizes basic HTML and CSS and was made to be responsive and adjust size based on the media you are viewing it with.
 
 
 
@@ -85,7 +83,7 @@ Below you will see the finished website that includes the updated code so that t
 
 Patrick - (https://github.com/Damerian00) - GitHub Name
 
-Project Link: [https://github.com/Damerian00/Horiseon-hwk2]
+Project Link: [https://github.com/Damerian00/hw2Portfolio]
 
 
 
