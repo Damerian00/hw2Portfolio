@@ -58,6 +58,8 @@ header{background-color:var(--secondaryColor);
 main, footer {width:95%}
 main, #aboutMe, #work, #contactMe{display:flex; flex-direction: column;margin: 2vh 0;}
 #aboutMe, #work, #contactMe {flex-direction: row;}
+.profilePic{ width: 159px;
+    padding: 1px 13px 0px 1px;}
 #aboutMe section:first-child, #work section:first-child, #contactMe section:first-child {border-right:3px solid var(--secondaryColor);
 margin-right:1%; padding-right:1%;flex:10%;}
 #aboutMe section:last-child, #work section:last-child, #contactMe section:nth-child(2) {flex:75%;}
