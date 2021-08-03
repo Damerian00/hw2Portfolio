@@ -2,7 +2,7 @@
     --primaryColor: rgba(69, 153, 181, 1);
     --secondaryColor: rgb(1,19,33, 1);
 }
-/* *{border: 1px red solid;} */
+
 @media screen and (min-width:2000px){
 body{display:block; margin:0 auto;}
 }
@@ -49,7 +49,7 @@ header{background-color:var(--secondaryColor);
     font-family: 'Style Script', cursive;
     font-size:30px;
     text-decoration:underline;}
-.head > ul li:hover{background-color: var(--primaryColor);}    
+.head > ul li:hover{background-color: var(--primaryColor);box-shadow: 0 0 8px #000 inset;}    
 .head > ul li:hover > a{color:var(--secondaryColor);
     font-family: 'MonteCarlo',cursive;
     font-family: 'Source Code Pro', monospace;
@@ -93,7 +93,7 @@ text-align:right;}
     justify-content: space-evenly;}
 
 .foot li{text-decoration: underline;font-size:25px;}
-.foot li:hover{background-color: var(--primaryColor);cursor:pointer}
+.foot li:hover{background-color: var(--primaryColor);cursor:pointer;box-shadow: 0 0 10px #000 inset;}
 @media screen and (min-width:1072px) and (max-width:1500px){
     .backGroundimg >span p{font-size:43px;}
     .brand{width: 220px;}
