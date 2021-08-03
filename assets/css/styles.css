@@ -49,8 +49,8 @@ header{background-color:var(--secondaryColor);
     font-family: 'Style Script', cursive;
     font-size:30px;
     text-decoration:underline;}
-.head > ul li:hover, .head > ul li:focus, .head > ul li:active{background-color: var(--primaryColor);}    
-.head > ul li:hover > a, .head > ul li:focus > a{color:var(--secondaryColor);
+.head > ul li:hover{background-color: var(--primaryColor);}    
+.head > ul li:hover > a{color:var(--secondaryColor);
     font-family: 'MonteCarlo',cursive;
     font-family: 'Source Code Pro', monospace;
     font-size:30px;
@@ -93,11 +93,12 @@ text-align:right;}
     justify-content: space-evenly;}
 
 .foot li{text-decoration: underline;font-size:25px;}
+.foot li:hover{background-color: var(--primaryColor);cursor:pointer}
 @media screen and (min-width:1072px) and (max-width:1500px){
     .backGroundimg >span p{font-size:43px;}
     .brand{width: 220px;}
      .head > ul li a{font-size:20px;}
-     .head > ul li:hover > a, .head > ul li:focus > a{font-size:23px;}
+     .head > ul li:hover > a{font-size:23px;}
     #aboutMe h2, #work h2, #contactMe h2 {font-size:32px;}
     .foot li{font-size:20px;}
 }
@@ -107,7 +108,7 @@ text-align:right;}
 .backGroundimg >span p{font-size:56px;}
  nav.head{width:500px;}
  .head > ul li a{font-size:26px;}
-    .head > ul li:hover > a, .head > ul li:focus > a{font-size:30px;}
+    .head > ul li:hover > a{font-size:30px;}
 #aboutMe p {font-size: 30px;}
  #work section:nth-child(2) nav ul{flex-direction: column;}
  .sites li{width:90%;margin: 2% 10%;}
