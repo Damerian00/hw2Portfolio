@@ -6,7 +6,7 @@
 @media screen and (min-width:2000px){
 body{display:block; margin:0 auto;}
 }
-body{min-width:1072px;max-width:2100px}
+body{max-width:2100px}
 header{background-color:var(--secondaryColor);
     height:10vh;
     position:relative;
@@ -48,7 +48,8 @@ header{background-color:var(--secondaryColor);
     font-family: 'Source Code Pro', monospace;
     font-family: 'Style Script', cursive;
     font-size:30px;
-    text-decoration:underline;}
+    text-decoration:underline;padding: .25rem;
+}
 .head > ul li:hover{background-color: var(--primaryColor);box-shadow: 0 0 8px #000 inset;}    
 .head > ul li:hover > a{color:var(--secondaryColor);
     font-family: 'MonteCarlo',cursive;
@@ -58,8 +59,10 @@ header{background-color:var(--secondaryColor);
 main, footer {width:95%}
 main, #aboutMe, #work, #contactMe{display:flex; flex-direction: column;margin: 2vh 0;}
 #aboutMe, #work, #contactMe {flex-direction: row;}
+#aboutMe p{font-size: 1.5rem;}
 .profilePic{ width: 159px;
-    padding: 1px 13px 0px 1px;}
+    border: 2px solid black;
+    margin: 3rem;}
 #aboutMe section:first-child, #work section:first-child, #contactMe section:first-child {border-right:3px solid var(--secondaryColor);
 margin-right:1%; padding-right:1%;flex:10%;}
 #aboutMe section:last-child, #work section:last-child, #contactMe section:nth-child(2) {flex:75%;}
@@ -92,31 +95,44 @@ text-align:right;}
 .foot > ul {display:flex;flex-direction: row;
     justify-content: space-evenly;}
 
-.foot li{text-decoration: underline;font-size:25px;}
+.foot li{text-decoration: underline;font-size:25px;padding:1rem;}
 .foot li:hover{background-color: var(--primaryColor);cursor:pointer;box-shadow: 0 0 10px #000 inset;}
 @media screen and (min-width:1072px) and (max-width:1500px){
     .backGroundimg >span p{font-size:43px;}
     .brand{width: 220px;}
-     .head > ul li a{font-size:20px;}
+     .head > ul li a{font-size:20px;padding: .25rem;}
      .head > ul li:hover > a{font-size:23px;}
     #aboutMe h2, #work h2, #contactMe h2 {font-size:32px;}
-    .foot li{font-size:20px;}
+    .foot li{font-size:20px;padding: .1rem;}
 }
 @media screen and (max-width:1072px){
-
-.backGroundimg >span {bottom:10vh;}
-.backGroundimg >span p{font-size:56px;}
- nav.head{width:500px;}
- .head > ul li a{font-size:26px;}
+    
+    .backGroundimg >span {bottom:10vh;}
+    .backGroundimg >span p{font-size:3rem;}
+    nav.head{width:500px;}
+    .head > ul li a{font-size:1.5rem;    padding: .1rem;}
     .head > ul li:hover > a{font-size:30px;}
-#aboutMe p {font-size: 30px;}
- #work section:nth-child(2) nav ul{flex-direction: column;}
- .sites li{width:90%;margin: 2% 10%;}
- .sites img {min-height: 50vh;}
- .sites span{position:absolute; bottom:10vh; left:0;}
- .content h3 {font-size: 35px;}
- .content p{font-size:24px;}
-.sites span {bottom:24vh;}
-#contactMe h2 {font-size: 32px;}
-.foot li{font-size:16px;}
+    #aboutMe p {font-size: 30px;}
+    #work section:nth-child(2) nav ul{flex-direction: column;}
+    .sites li{width:90%;margin: 2% 10%;}
+    .sites img {min-height: 50vh;}
+    .sites span{position:absolute; bottom:10vh; left:0;}
+    .content h3 {font-size: 35px;}
+    .content p{font-size:24px;}
+    .sites span {bottom:24vh;}
+    #contactMe h2 {font-size: 32px;}
+    .foot li{font-size:16px;}
+}
+
+@media screen and (min-width:500px) and (max-width:830px){
+    .backGroundimg >span p{font-size:1.75rem;}
+    nav.head {bottom:-5vh;right: -1rem;z-index:1000;}
+    nav.head ul{flex-direction: column;}
+    .brand{z-index:1000;top:17vh;left:8rem; }
+    .foot > ul {
+        flex-direction: column;
+    position: absolute;
+    top: -6vh;
+    
+    }
 }
