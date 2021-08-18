@@ -62,7 +62,9 @@ main, #aboutMe, #work, #contactMe{display:flex; flex-direction: column;margin: 2
 #aboutMe p{font-size: 1.5rem;}
 .profilePic{ width: 159px;
     border: 2px solid black;
-    margin: 3rem;}
+    margin: 3rem;
+    float:left;
+}
 #aboutMe section:first-child, #work section:first-child, #contactMe section:first-child {border-right:3px solid var(--secondaryColor);
 margin-right:1%; padding-right:1%;flex:10%;}
 #aboutMe section:last-child, #work section:last-child, #contactMe section:nth-child(2) {flex:75%;}
@@ -126,13 +128,23 @@ text-align:right;}
 
 @media screen and (min-width:500px) and (max-width:830px){
     .backGroundimg >span p{font-size:1.75rem;}
-    nav.head {bottom:-5vh;right: -1rem;z-index:1000;}
+    nav.head {bottom:-15vh;z-index:1000;background-color: rgb(1,19,33, .5);width:100%;}
     nav.head ul{flex-direction: column;}
-    .brand{z-index:1000;top:17vh;left:8rem; }
+    .brand{visibility:hidden; }
     .foot > ul {
         flex-direction: column;
     position: absolute;
     top: -6vh;
     
+    }
+    .profilePic {float:none;}
+    nav.head ul > li {margin: .5vh 0;
+        display: inline;
+        padding: .5rem;
+        width: 100%;
+        text-align: center;
+    }
+    .backGroundimg >span {
+        bottom: 5vh;
     }
 }
