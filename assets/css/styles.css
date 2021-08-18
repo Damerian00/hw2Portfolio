@@ -110,7 +110,7 @@ text-align:right;}
     .backGroundimg >span {bottom:10vh;}
     .backGroundimg >span p{font-size:3rem;}
     nav.head{width:500px;}
-    .head > ul li a{font-size:1.5rem;    padding: .1rem;}
+    .head > ul li a{font-size:1.5rem;    padding: .75rem;}
     .head > ul li:hover > a{font-size:30px;}
     #aboutMe p {font-size: 30px;}
     #work section:nth-child(2) nav ul{flex-direction: column;}
