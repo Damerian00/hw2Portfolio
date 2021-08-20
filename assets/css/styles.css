@@ -1,6 +1,7 @@
 :root{
     --primaryColor: rgba(69, 153, 181, 1);
     --secondaryColor: rgb(1,19,33, 1);
+    scroll-behavior: smooth;
 }
 
 @media screen and (min-width:2000px){
@@ -79,7 +80,7 @@ text-align:right;}
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;}
-.sites li > span{visibility:hidden ;}    
+.sites li > span{visibility:hidden ;}
 .sites li:hover > span {visibility:visible;}
  .sites li{position: relative; width:37%;margin: 2% -6% 2% 10%;}
  .sites ul li span{box-shadow: 10px 10px 5px #aaaa}
@@ -90,6 +91,15 @@ text-align:right;}
 .featured img{ min-height: 50vh;}
 .sites span{position:absolute; bottom:10vh; left:0;}
 .featured span {bottom:24vh;}
+.sites ul li span:nth-child(3), .sites ul li span:nth-child(4){position: absolute;
+    right: 0;}
+     .repoLink, .siteLink{position:absolute; right:1rem;background-color: rgb(255, 0, 0);padding: 1vh 2rem;
+        border-radius: 28px 0px 0px 28px;}    
+.featured .repoLink,.featured .siteLink{position:absolute; right:3rem;background-color: rgb(255, 0, 0);padding: 1vh 2rem;
+    border-radius: 28px 0px 0px 28px;}
+.siteLink {bottom: 2rem;   
+}
+
 .content{background-color: var(--primaryColor);padding:10px;border-radius:0px 28px 28px 0px;color:var(--secondaryColor);}
 #contactMe section{position: relative;}
 .foot{width: 75%;
@@ -105,7 +115,12 @@ text-align:right;}
      .head > ul li a{font-size:20px;padding: .25rem;}
      .head > ul li:hover > a{font-size:23px;}
     #aboutMe h2, #work h2, #contactMe h2 {font-size:32px;}
-    .foot li{font-size:20px;padding: .1rem;}
+    .repoLink, .siteLink{position:absolute; right:.4rem;}    
+.featured .repoLink,.featured .siteLink{position:absolute; right:1.5rem;}
+.siteLink {bottom: 4rem;} 
+.repoLink {bottom:-3rem;}  
+   .foot li{font-size:20px;padding: .1rem;}
+
 }
 @media screen and (max-width:1072px){
     
@@ -131,6 +146,13 @@ text-align:right;}
     nav.head {bottom:-15vh;z-index:1000;background-color: rgb(1,19,33, .5);width:100%;}
     nav.head ul{flex-direction: column;}
     .brand{visibility:hidden; }
+    .sites ul li span:nth-child(3), .sites ul li span:nth-child(4){right: 0;
+        bottom: 5.75vh;}
+    .repoLink, .siteLink{right:.4rem;}    
+    .featured .repoLink,.featured .siteLink{right:.5rem;}
+    .siteLink {bottom:0;} 
+    .repoLink {bottom:-3rem;}  
+       .foot li{font-size:20px;padding: .1rem;}
     .foot > ul {
         flex-direction: column;
     position: absolute;
