@@ -7,12 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
+    <link rel="stylesheet" href="assets/css/newStyle.css">
 </head>
 
 <body>
     <header>
-        <div class="brand">Patrick Price</div>
+        <div class = "off-right">
+        <div class="brand">
+            <h1>Patrick Price</h1>
+            <p>Web Coder</p>
+        </div>
         <nav class="head">
             <ul>
                 <li><a href="#aboutMe">About Me</a></li>
@@ -21,23 +26,13 @@
                 <li><a href="https://my.indeed.com/p/patrickp-6d75hwd" target="_blank">Resume</a></li>
             </ul>
         </nav>
-    </header>
-    <div class="headImg">
-        <div class="backGroundimg">
-            <img src="assets/images/bgimg.jpg" alt="Backgorund Image">
-            <span>
-                <p class="subTitle">Providing Guidance for the Lost</p>
-            </span>
         </div>
-    </div>
+    </header>
     <main>
         <panel id="aboutMe">
             <section>
-                <h2>About</h2>
-                <h2>Me</h2>
-            </section>
-            <section>
                 <img src = "assets/images/headshot.jpeg" class="profilePic" alt ="profile pic">
+                <h2>About Me</h2>
                 <p> My name is Patrick, I have been exploring the world of coding since High School when I first started writing programs for my graphing calculator. Since then I have learned a few languages such as: HTML5, JavaScript, CSS, and some Java. Currently all the sites on this page are mock sites that were made as an assignment for a coding class environment or something I created to learn and test my skills out.</p>
                 <br>
                 <p>The featured site that I’m most proud of is the one that is a mockup of The Miro apartment complex site. Which was created to mirror the site at the time I created it. It includes stock images and my own custom CSS and coding. The Battle Masters html is a game that I wrote in JavaScript that uses very minimal HTML. Writing the code for this site was challenging, but it also was rewarding at the same time since it helped me to understand and learn JavaScript. The other sites are ones that I created for classroom assignments.
@@ -45,14 +40,15 @@
             </section>
         </panel>
         <panel id="work">
-            <section>
-                <h2>Work</h2>
+            <section class="featured">
+                <img src = "assets/images/miro_ss.png">
             </section>
             <section>
+                <h2>Samples of my Work</h2>
                 <nav class="sites">
                     <ul>
                         <li class="featured">
-                                <img src="assets/images/miro_ss.png" alt="Miro Website">
+                            <img src="assets/images/miro_ss.png" alt="Miro Website">
                             <span>
                                 <div class="content">
                                     <h3>Miro Website</h3>
