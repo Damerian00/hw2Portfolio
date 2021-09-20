@@ -49,7 +49,7 @@ header > nav {
 }
 
 .head {
-margin-top: 3vh;
+margin-top: -3vh;
 }
 
 .head ul{
@@ -111,7 +111,7 @@ flex-direction: row;
 
 #aboutMe{
 flex:1;
-margin: 0 2rem;
+margin: 0 1rem;
 }
 
 
@@ -124,6 +124,7 @@ margin: 0 2rem;
 }
 #aboutMe p{
     color: var(--whiteColor);
+    width: 65%;
 }
 .profilePic{
         width: 200px;
@@ -134,10 +135,49 @@ margin: 0 2rem;
 
 #work{
     flex:2;
-    display:flex;
-    flex-direction: row;
+    
 }
 
 .featured{
+    z-index: 289;
+    flex: 2;
+    width: 33%;
+    position: absolute;
+    background-color: black;
+    height: 90vh;
+    overflow: hidden;
+    left: 23vw;
+}
+.featured img{
+    width:100%;
+    margin: 25% 0;
+}
+.sites{
+margin-top: 36vh;
+
+}
+.sites ul{
+display:flex;
+flex-direction: column;
+
+}
+.sites ul li panel{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25vw;
+    padding: .25rem;
+}
+.sites img {
+    flex: 1;
+    width: 190px;
+    height: 190px;
+}
+.content{
+    flex:2;
+    padding:4vh 2rem 0;
+    color: var(--whiteColor);
+}
+#work .links{
+    margin-top: 3vh;
 
 }
